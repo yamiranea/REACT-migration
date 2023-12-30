@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../App.css";
 import "../index.css";
 import syncLogo from "../assets/logo.svg";
@@ -7,6 +7,7 @@ const Navbar = () => {
   const buttonUrl = "https://factoriaf5.org/";
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const [isNavbarSticky, setNavbarSticky] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen((prev) => !prev);
@@ -16,8 +17,28 @@ const Navbar = () => {
     setDropdownOpen(!isDropdownOpen);
   };
 
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setNavbarSticky(true);
+    } else {
+      setNavbarSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="bg-color border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+    <nav
+      className={`${
+        isNavbarSticky ? "fixed top-0 w-full z-50" : ""
+      } border-gray-200 dark:bg-gray-900 dark:border-gray-700 transition-all duration-300`}
+    >
+      {" "}
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={syncLogo} class="h-8" alt="Sync Logo" />
@@ -56,7 +77,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-main text-main:hover text-sm font-bold font-open-sansrounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                className="block py-2 px-3 text-main text-main:hover text-sm font-bold font-open-sans rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
                 aria-current="page"
               >
                 DESCRIPTION
