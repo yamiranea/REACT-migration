@@ -163,7 +163,7 @@ const Navbar = () => {
               <a
                 href={buttonUrl}
                 target="_blank"
-                className="text-pink pink-button pink-button:hover md:pink-button:hover lg:pink-button:hover rounded-full text-sm md:text-sm px-8 py-2 text-center me-4 mb-2"
+                className="text-pink download-button download-button:hover md:download-button:hover lg:download-button:hover rounded-full text-sm md:text-sm px-8 py-3 text-center me-4 mb-2"
               >
                 DOWNLOAD
               </a>

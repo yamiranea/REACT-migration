@@ -1,4 +1,5 @@
 import React from "react";
+import DownloadButton from "../components/DownloadButton";
 import "../index.css";
 
 const HomePage = () => {
@@ -12,6 +13,10 @@ const HomePage = () => {
         application. It's the first app to harness the power of social
         connections to help you stay focused and get organized
       </p>
+      <div className="flex justify-center mt-6">
+        <DownloadButton iconClass="fab fa-apple" />
+        <DownloadButton iconClass="fab fa-google-play" />
+      </div>
     </div>
   );
 };
