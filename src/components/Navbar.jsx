@@ -17,10 +17,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+    <nav className="bg-color border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={syncLogo} class="h-8" alt="Flowbite Logo" />
+          <img src={syncLogo} class="h-8" alt="Sync Logo" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>
         <button
@@ -52,7 +52,7 @@ const Navbar = () => {
           } w-full md:flex md:w-auto`}
           id="navbar-dropdown"
         >
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x- rtl:space-x-reverse sm:flex-row sm:space-x-2.5 md:space-x-2.5 md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-color md:space-x- rtl:space-x-reverse sm:flex-row sm:space-x-2.5 md:space-x-2.5 md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <a
                 href="#"
