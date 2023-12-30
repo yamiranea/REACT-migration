@@ -77,7 +77,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-main text-main:hover text-sm font-bold font-open-sans rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                className="block py-2 px-3 text-main text-main:hover text-sm font-bold rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
                 aria-current="page"
               >
                 DESCRIPTION
@@ -86,7 +86,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-main text-main:hover text-sm font-bold font-open-sans block py-2 px-3 text-white rounded md:bg-transparent md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                className="text-main text-main:hover text-sm font-bold block py-2 px-3 text-white rounded md:bg-transparent md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
               >
                 FEATURES
               </a>
@@ -94,7 +94,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#"
-                className="text-main text-main:hover text-sm font-bold font-open-sans block py-2 px-3 text-white rounded md:bg-transparent md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                className="text-main text-main:hover text-sm font-bold block py-2 px-3 text-white rounded md:bg-transparent md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
               >
                 SCREENS
               </a>
@@ -103,7 +103,7 @@ const Navbar = () => {
               <button
                 onClick={toggleDropdown}
                 id="dropdownNavbarLink"
-                className="flex items-center justify-between w-full py-2 px-3 text-main text-main:hover text-sm font-bold font-open-sans rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                className="flex items-center justify-between w-full py-2 px-3 text-main text-main:hover text-sm font-bold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
               >
                 EXTRA{" "}
                 <svg
