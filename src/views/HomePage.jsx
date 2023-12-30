@@ -1,6 +1,7 @@
 import React from "react";
 import DownloadButton from "../components/DownloadButton";
 import "../index.css";
+import phoneImage from "../assets/images/header-iphone.png";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,12 @@ const HomePage = () => {
       <div className="flex justify-center mt-6">
         <DownloadButton iconClass="fab fa-apple" />
         <DownloadButton iconClass="fab fa-google-play" />
+      </div>
+      <div>
+        <img
+          src={phoneImage}
+          className="w-4/5 mx-20 mt-12 phone-img hover:scale-110 transition duration-500 cursor-pointer"
+        />
       </div>
     </div>
   );
