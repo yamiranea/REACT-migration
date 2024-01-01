@@ -1,5 +1,4 @@
-body,
-html {
+body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -7,45 +6,5 @@ html {
 }
 
 .bg-color {
-        background-color: #f7fafd;
+    background-color: #f7fafd;
 }
-
-.text-main {
-    color: #333333;
-}
-
-.text-main:hover {
-    color: #ff556e;
-}
-
-.text-pink {
-    color: #ff556e;
-}
-.download-button {
-    border: 0.125rem solid #ff556e;
-    cursor: pointer;
-
-}
-
-.download-button:hover {
-    color: white;
-    background-color: #ff556e;
-    transition: all 0.2s;
-}
-
-.secondary-text {
-    color: #797979;
-}
-
-.download-button-pink {
-    border: 0.125rem solid #ff556e;
-    background-color: #ff556e;
-    cursor: pointer;
-}
-
-.download-button-pink:hover {
-    color: #ff556e;
-    background-color: white;
-    transition: all 0.2s;
-}
-

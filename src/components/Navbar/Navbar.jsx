@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../App.css";
 import "../index.css";
+import "../Navbar/Navbar.css";
 import syncLogo from "../assets/logo.svg";
 
 const Navbar = () => {
@@ -36,11 +37,11 @@ const Navbar = () => {
     <nav
       className={`${
         isNavbarSticky ? "fixed top-0 w-full z-50" : ""
-      } border-gray-200 dark:bg-gray-900 dark:border-gray-700 transition-all duration-300`}
+      } border-gray-200 flex dark:bg-gray-900 dark:border-gray-700 transition-all duration-300`}
     >
       {" "}
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <div className="max-w-screen-xl flex flex-nowrap items-center justify-between mx-auto p-4">
+        <a href="#" class="flex items-center space-x-72 rtl:space-x-reverse">
           <img src={syncLogo} class="h-8" alt="Sync Logo" />
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
         </a>

@@ -1,0 +1,28 @@
+.text-main,
+h1 {
+    color: #333333;
+}
+
+.text-main:hover {
+    color: #ff556e;
+}
+
+.text-pink {
+    color: #ff556e;
+}
+
+
+.secondary-text {
+    color: #797979;
+}
+
+.white-circle-right {
+    margin-left: 337px;
+    margin-top: -57px;
+}
+
+.white-circle-left {
+    margin-left: -173px;
+    margin-top: -247px;
+
+}
