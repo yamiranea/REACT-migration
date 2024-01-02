@@ -4,8 +4,6 @@ import CompanyGoalsList from "../../components/CompanyGoalsList/CompanyGoalsList
 
 import "../../index.css";
 import "..//HomePage/HomePage.css";
-import "../../components/DownloadButton/DownloadButton.css";
-import "../../components/Navbar/Navbar.css";
 
 import phoneImage from "../../assets/images/header-iphone.png";
 import greenDecorativeImage from "../../assets/images/decorative-green-diamond.svg";
