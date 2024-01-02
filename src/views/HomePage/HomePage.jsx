@@ -1,6 +1,6 @@
 import React from "react";
 import DownloadButton from "../../components/DownloadButton/DownloadButton";
-import CompanyGoals from "../../components/CompanyGoals/CompanyGoals";
+import CompanyGoalsList from "../../components/CompanyGoalsList/CompanyGoalsList";
 
 import "../../index.css";
 import "..//HomePage/HomePage.css";
@@ -44,22 +44,7 @@ const HomePage = () => {
         />
       </div>
       <div>
-        <div>
-          <CompanyGoals
-            iconClass="fa fa-users"
-            bgColor="identify-goals-bg"
-            textColor="identify-goals-icon"
-            text="Identify Goals"
-          />
-        </div>
-        <div>
-          <CompanyGoals
-            iconClass="fa fa-code"
-            bgColor="situation-analysis-bg"
-            textColor="situation-analysis-icon"
-            text="Situation Analysis"
-          />
-        </div>
+        <CompanyGoalsList />
       </div>
     </div>
   );
