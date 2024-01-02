@@ -19,7 +19,7 @@ const HomePage = () => {
         <img src={greenDecorativeImage} className="w-3.5 mx-20" />
         <img src={yellowDecorativeImage} className="w-5 mx-20" />
       </div>
-      <h1 className="text-5xl font-bold font-open-sans text-center mt-4">
+      <h1 className="text-5xl font-bold font-open-sans text-center mt-4 mx-2">
         Mobile App Landing Page
       </h1>
       <p className="secondary-text text-center mx-8 mt-6">
@@ -40,16 +40,26 @@ const HomePage = () => {
       <div>
         <img
           src={phoneImage}
-          className="w-auto mx-2 mt-10 phone-img hover:scale-105 transition duration-500 cursor-pointer"
+          className="w-auto mx-2 mt-10 mb-20 phone-img hover:scale-105 transition duration-500 cursor-pointer"
         />
       </div>
       <div>
-        <CompanyGoals
-          iconClass="fa fa-users"
-          bgColor="identify-goals-bg"
-          textColor="identify-goals-icon"
-          text="Identify Goals"
-        />
+        <div>
+          <CompanyGoals
+            iconClass="fa fa-users"
+            bgColor="identify-goals-bg"
+            textColor="identify-goals-icon"
+            text="Identify Goals"
+          />
+        </div>
+        <div>
+          <CompanyGoals
+            iconClass="fa fa-code"
+            bgColor="situation-analysis-bg"
+            textColor="situation-analysis-icon"
+            text="Situation Analysis"
+          />
+        </div>
       </div>
     </div>
   );
