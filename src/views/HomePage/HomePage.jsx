@@ -1,5 +1,7 @@
 import React from "react";
 import DownloadButton from "../../components/DownloadButton/DownloadButton";
+import CompanyGoals from "../../components/CompanyGoals/CompanyGoals";
+
 import "../../index.css";
 import "..//HomePage/HomePage.css";
 import "../../components/DownloadButton/DownloadButton.css";
@@ -39,6 +41,14 @@ const HomePage = () => {
         <img
           src={phoneImage}
           className="w-auto mx-2 mt-10 phone-img hover:scale-105 transition duration-500 cursor-pointer"
+        />
+      </div>
+      <div>
+        <CompanyGoals
+          iconClass="fa fa-users"
+          bgColor="identify-goals-bg"
+          textColor="identify-goals-icon"
+          text="Identify Goals"
         />
       </div>
     </div>
