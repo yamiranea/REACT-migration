@@ -28,8 +28,7 @@ const HomePage = () => {
         connections to help you stay focused and get organized
       </p>
       <div className="flex justify-center mt-6 md:gap-10">
-        <DownloadButton iconClass="fab fa-apple" />
-        <DownloadButton iconClass="fab fa-google-play" />
+        <DownloadButton />
       </div>
       <div className="w-80 white-circle-right hidden md:block">
         <img src={whiteDecorativeImage} className="w-full" />
