@@ -35,10 +35,11 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        isNavbarSticky ? "fixed top-0 w-full z-50" : ""
-      } border-gray-200 flex dark:bg-gray-900 dark:border-gray-700 transition-all duration-300`}
+        isNavbarSticky
+          ? "fixed top-0 w-full z-50 bg-color shadow-md border-b border-gray-200"
+          : "flex dark:bg-gray-900 dark:border-gray-700"
+      } transition-all duration-300`}
     >
-      {" "}
       <div className="max-w-screen-xl flex flex-nowrap items-center justify-between mx-auto p-4">
         <a href="#" class="flex items-center space-x-72 rtl:space-x-reverse">
           <img src={syncLogo} class="h-8" alt="Sync Logo" />
