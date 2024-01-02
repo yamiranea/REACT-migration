@@ -36,7 +36,7 @@ const CompanyGoalsList = () => {
   ];
 
   return (
-    <div>
+    <div className="md:flex flex-row flex-wrap justify-center gap-14">
       {companyGoalsData.map((goal, index) => (
         <div key={index} className="flex flex-col items-center mb-10">
           <div
