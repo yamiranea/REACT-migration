@@ -1,6 +1,5 @@
 import React from "react";
-import "../index.css";
-import "../components/DownloadButton/DownloadButton.css";
+import "../DownloadButton/DownloadButton.css";
 
 const DownloadButton = ({ iconClass }) => {
   return (

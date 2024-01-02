@@ -1,5 +1,5 @@
 import React from "react";
-import DownloadButton from "../components/DownloadButton";
+import DownloadButton from "../components/DownloadButton/DownloadButton";
 import "../index.css";
 import phoneImage from "../assets/images/header-iphone.png";
 
