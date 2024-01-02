@@ -6,21 +6,7 @@ html {
     background-color: #f7fafd;
 }
 
-.bg-color {
-        background-color: #f7fafd;
-}
 
-.text-main {
-    color: #333333;
-}
-
-.text-main:hover {
-    color: #ff556e;
-}
-
-.text-pink {
-    color: #ff556e;
-}
 
 .secondary-text {
     color: #797979;

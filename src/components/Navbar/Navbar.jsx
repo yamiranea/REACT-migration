@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "../App.css";
-import "../index.css";
-import syncLogo from "../assets/logo.svg";
+import "../Navbar/NavBar.css";
+import "../DownloadButton/DownloadButton.css";
+import syncLogo from "../../assets/images/logo.svg";
 
 const Navbar = () => {
   const buttonUrl = "https://factoriaf5.org/";

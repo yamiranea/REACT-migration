@@ -1,3 +1,7 @@
+.text-pink {
+    color: #ff556e;
+}
+
 .download-button {
     border: 0.125rem solid #ff556e;
     cursor: pointer;
