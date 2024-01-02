@@ -1,14 +1,14 @@
 import React from "react";
-import DownloadButton from "../components/DownloadButton/DownloadButton";
-import "../index.css";
-import "../views/HomePage/HomePage.css";
-import "../components/DownloadButton/DownloadButton.css";
-import "../components/Navbar/Navbar.css";
+import DownloadButton from "../../components/DownloadButton/DownloadButton";
+import "../../index.css";
+import "..//HomePage/HomePage.css";
+import "../../components/DownloadButton/DownloadButton.css";
+import "../../components/Navbar/Navbar.css";
 
-import phoneImage from "../assets/images/header-iphone.png";
-import greenDecorativeImage from "../assets/images/decorative-green-diamond.svg";
-import yellowDecorativeImage from "../assets/images/decorative-yellow-circle.svg";
-import whiteDecorativeImage from "../assets/images/decorative-white-circle.svg";
+import phoneImage from "../../assets/images/header-iphone.png";
+import greenDecorativeImage from "../../assets/images/decorative-green-diamond.svg";
+import yellowDecorativeImage from "../../assets/images/decorative-yellow-circle.svg";
+import whiteDecorativeImage from "../../assets/images/decorative-white-circle.svg";
 
 const HomePage = () => {
   return (
