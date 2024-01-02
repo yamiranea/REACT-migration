@@ -15,6 +15,24 @@ const CompanyGoalsList = () => {
       textColor: "situation-analysis-icon",
       text: "Situation Analysis",
     },
+    {
+      iconClass: "fa fa-cog",
+      bgColor: "tasks-settings-bg",
+      textColor: "tasks-settings-icon",
+      text: "Tasks Settings",
+    },
+    {
+      iconClass: "fa fa-code",
+      bgColor: "social-interaction-bg",
+      textColor: "social-interaction-icon",
+      text: "Social Interaction",
+    },
+    {
+      iconClass: "fa fa-rocket",
+      bgColor: "get-things-done-bg",
+      textColor: "get-things-done-icon",
+      text: "Get Things Done",
+    },
   ];
 
   return (
@@ -26,7 +44,7 @@ const CompanyGoalsList = () => {
           >
             <i className={`${goal.iconClass} ${goal.textColor} text-5xl`} />
           </div>
-          <div className={`text-lg font-bold text-main mt-4 ${goal.textColor}`}>
+          <div className={`text-lg font-bold text-main mt-2 ${goal.textColor}`}>
             {goal.text}
           </div>
         </div>
