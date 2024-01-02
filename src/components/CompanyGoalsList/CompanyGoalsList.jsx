@@ -38,7 +38,10 @@ const CompanyGoalsList = () => {
   return (
     <div className="md:flex flex-row flex-wrap justify-center gap-14">
       {companyGoalsData.map((goal, index) => (
-        <div key={index} className="flex flex-col items-center mb-10">
+        <div
+          key={index}
+          className="flex flex-col items-center mb-10 hover:animate-ping"
+        >
           <div
             className={`rounded-full w-36 h-36 flex flex-row items-center justify-center ${goal.bgColor}`}
           >

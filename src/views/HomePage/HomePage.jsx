@@ -17,10 +17,10 @@ const HomePage = () => {
         <img src={greenDecorativeImage} className="w-3.5 mx-20" />
         <img src={yellowDecorativeImage} className="w-5 mx-20" />
       </div>
-      <h1 className="text-5xl font-bold font-open-sans text-center mt-4 mx-2">
+      <h1 className="text-5xl font-bold font-open-sans text-center mt-4 mx-2 md:text-6xl md:w-10/12 md:mx-auto">
         Mobile App Landing Page
       </h1>
-      <p className="secondary-text text-center mx-8 mt-6">
+      <p className="secondary-text text-center mx-8 mt-6 md:text-xl md:w-10/12 md:mx-auto">
         Start focusing on your goals and get more things done with Sync mobile
         application. It's the first app to harness the power of social
         connections to help you stay focused and get organized

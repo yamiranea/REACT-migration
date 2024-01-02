@@ -4,10 +4,10 @@ import "../DownloadButton/DownloadButton.css";
 const DownloadButton = () => {
   const downloadButtonData = [
     {
-      iconClass: "fab fa-apple",
+      iconClass: "fab fa-apple mr-1",
     },
     {
-      iconClass: "fab fa-google-play",
+      iconClass: "fab fa-google-play mr-1",
     },
   ];
 
@@ -17,7 +17,7 @@ const DownloadButton = () => {
         <button
           key={index}
           type="button"
-          className="text-white font-bold download-button-pink download-button-pink:hover md:download-button-pink:hover rounded-full text-sm md:text-sm px-8 py-3 text-center mb-2 flex flex-row items-center me-3"
+          className="text-white font-bold download-button-pink download-button-pink:hover rounded-full text-sm px-6 py-3 text-center mb-2 mx-2 flex flex-row items-center md:text-lg md:download-button-pink:hover"
         >
           <i className={button.iconClass}></i>
           DOWNLOAD
