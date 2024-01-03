@@ -1,3 +1,7 @@
 .text-paragraph {
     color: #777777;
 }
+
+.square-list {
+    list-style-type: square;
+}

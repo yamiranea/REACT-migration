@@ -2,6 +2,7 @@ import React from "react";
 import "../DescriptionPage/DescriptionPage.css";
 import "../../index.css";
 import descriptionImage from "../../assets/images/description-1-app.png";
+import OrdListDescPage from "./OrderedListDescPage/OrdListDescPage";
 
 const DescriptionPage = () => {
   return (
@@ -18,12 +19,13 @@ const DescriptionPage = () => {
         </h2>
       </div>
       <div>
-        <p className="text-paragraph w-4/5 mx-auto leading-loose">
+        <p className="text-paragraph w-4/5 mx-auto leading-loose mb-6">
           Sync is the first mobile app on the market to harness the power of
           social connections to help you stop procrastinating and start getting
           things done. Give it a try and see the changes right away
         </p>
       </div>
+      <OrdListDescPage />
     </>
   );
 };
