@@ -40,3 +40,10 @@ h1 {
         margin-top: -277px;
     }
 }
+
+@media (min-width: 992px) {
+    .white-circle-right {
+        margin-left: 890px;
+        margin-top: -120px;
+        }
+}
