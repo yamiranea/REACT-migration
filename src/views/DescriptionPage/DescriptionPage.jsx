@@ -40,8 +40,9 @@ const DescriptionPage = () => {
           </button>
         </div>
       </div>
-      <div className="calendar-bg">hola</div>
-      <CalendarButtons />
+      <div className="calendar-bg">
+        <CalendarButtons />
+      </div>
     </>
   );
 };
