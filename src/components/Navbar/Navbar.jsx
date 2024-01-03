@@ -106,7 +106,7 @@ const Navbar = () => {
               <button
                 onClick={toggleDropdown}
                 id="dropdownNavbarLink"
-                className="flex items-center justify-between w-full py-2 px-3 text-main text-main:hover text-sm font-bold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                className="flex items-center justify-between w-full py-2 px-3 text-main text-main:hover text-sm font-bold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto lg:hover:text-main"
               >
                 EXTRA{" "}
                 <svg
@@ -166,7 +166,7 @@ const Navbar = () => {
               <a
                 href={buttonUrl}
                 target="_blank"
-                className="text-pink download-button download-button:hover md:download-button:hover lg:download-button:hover rounded-full text-sm md:text-sm px-8 py-2.5 text-center me-4 mb-2"
+                className="text-pink font-bold download-button download-button:hover md:download-button:hover lg:download-button:hover rounded-full text-sm md:text-sm px-8 py-2.5 text-center me-4 mb-2"
               >
                 DOWNLOAD
               </a>
