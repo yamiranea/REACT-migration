@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import "../Navbar/NavBar.css";
 import "../DownloadButton/DownloadButton.css";
 import syncLogo from "../../assets/images/logo.svg";

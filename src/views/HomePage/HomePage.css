@@ -23,6 +23,20 @@ h1 {
 
 .white-circle-left {
     margin-left: -173px;
-    margin-top: -247px;
+    margin-top: -186px;
 
+}
+.blue-decorative-image {
+    margin-left: -173px;
+    margin-top: -247px;
+}
+@media  (min-width: 768px) {
+    .white-circle-right {
+        margin-left: 666px;
+        margin-top: -121px;
+        }
+    .blue-decorative-image {
+        margin-left: 219px;
+        margin-top: -277px;
+    }
 }

@@ -9,6 +9,7 @@ import phoneImage from "../../assets/images/header-iphone.png";
 import greenDecorativeImage from "../../assets/images/decorative-green-diamond.svg";
 import yellowDecorativeImage from "../../assets/images/decorative-yellow-circle.svg";
 import whiteDecorativeImage from "../../assets/images/decorative-white-circle.svg";
+import blueDecorativeImage from "../../assets/images/decorative-blue-circle.svg";
 
 const HomePage = () => {
   return (
@@ -28,11 +29,14 @@ const HomePage = () => {
       <div className="flex justify-center mt-6 md:gap-10">
         <DownloadButton />
       </div>
-      <div className="w-80 white-circle-right hidden md:block">
+      <div className="w-72 white-circle-right hidden md:block">
         <img src={whiteDecorativeImage} className="w-full" />
       </div>
-      <div className="w-80 white-circle-left hidden md:block">
+      <div className="w-72 white-circle-left hidden md:block">
         <img src={whiteDecorativeImage} className="w-full" />
+        <div className="w-14 blue-decorative-image hidden md:block">
+          <img src={blueDecorativeImage} />
+        </div>
       </div>
       <div>
         <img
