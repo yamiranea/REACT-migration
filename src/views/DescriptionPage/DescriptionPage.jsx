@@ -1,5 +1,6 @@
 import React from "react";
 import "../DescriptionPage/DescriptionPage.css";
+import "../../index.css";
 import descriptionImage from "../../assets/images/description-1-app.png";
 
 const DescriptionPage = () => {
@@ -12,9 +13,16 @@ const DescriptionPage = () => {
         />
       </div>
       <div>
-        <h2 className="text-4xl text-main w-5/6 font-bold mx-auto mt-8">
+        <h2 className="text-3xl font-bold text-left w-4/5 mt-10 mx-auto mb-5">
           Organize Your Time And Start Getting Results
         </h2>
+      </div>
+      <div>
+        <p className="text-paragraph w-4/5 mx-auto leading-loose">
+          Sync is the first mobile app on the market to harness the power of
+          social connections to help you stop procrastinating and start getting
+          things done. Give it a try and see the changes right away
+        </p>
       </div>
     </>
   );
