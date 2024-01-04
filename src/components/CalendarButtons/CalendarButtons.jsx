@@ -6,14 +6,20 @@ const CalendarButtons = () => {
     {
       iconClass: "fa fa-clock",
       text: "Schedule",
+      bgColor: "schedule-bg",
+      textColor: "text-white",
     },
     {
       iconClass: "fa fa-list",
       text: "Tracking",
+      bgColor: "secondary-btns",
+      textColor: "text-paragraph",
     },
     {
       iconClass: "fa fa-calendar",
       text: "Organize",
+      bgColor: "secondary-btns",
+      textColor: "text-paragraph",
     },
   ];
 
@@ -22,11 +28,9 @@ const CalendarButtons = () => {
       {calendarBtnData.map((calendar, index) => (
         <div key={index} className="flex flex-col items-center mb-3">
           <div
-            className={`calendar-btn w-9/12 h-12 flex flex-row items-center justify-center space-x-2 text-paragraph bg-white hover:text-white`}
+            className={`calendar-btn w-9/12 h-12 flex flex-row items-center justify-center space-x-2 cursor-pointer hover:text-white ${calendar.bgColor} ${calendar.textColor}`}
           >
-            <i
-              className={`${calendar.iconClass} ${calendar.textColor} text-xl`}
-            />{" "}
+            <i className={`${calendar.iconClass} text-xl hover:text-white`} />{" "}
             <p className={`text-md font-bold`}>{calendar.text}</p>
           </div>
         </div>

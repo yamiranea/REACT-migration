@@ -1,3 +1,9 @@
+.schedule-bg {
+    background-color: #9a67e7;
+}
+.secondary-btns {
+    background-color: white;
+}
 .calendar-btn:hover {
     background-color: #9a67e7;
 }

@@ -2,8 +2,9 @@ import React from "react";
 import "../DescriptionPage/DescriptionPage.css";
 import "../../index.css";
 import descriptionImage from "../../assets/images/description-1-app.png";
-import OrdListDescPage from "./OrderedListDescPage/OrdListDescPage";
+import OrdListDescPage from "../../components/OrderedListDescPage/OrdListDescPage";
 import CalendarButtons from "../../components/CalendarButtons/CalendarButtons";
+import OrderedListCalendar from "../../components/OrderedListCalendar/OrderedListCalendar";
 
 const DescriptionPage = () => {
   const buttonUrl = "https://www.somosf5.org/";
@@ -42,6 +43,14 @@ const DescriptionPage = () => {
       </div>
       <div className="calendar-bg">
         <CalendarButtons />
+        <div>
+          <p className="text-paragraph w-5/6 mx-auto text-left leading-loose">
+            <strong>Schedule tasks</strong> to keep track of their completion.
+            Sync provides multiple scheduling options including alarms and
+            reminders.
+          </p>
+          <OrderedListCalendar />
+        </div>
       </div>
     </>
   );
