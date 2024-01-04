@@ -1,14 +1,15 @@
 import React from "react";
 import "../DescriptionPage/DescriptionPage.css";
+import "../../components/DownloadButton/DownloadButton.css";
+import "../../components/DescrPageButtons/DescrPageButtons.css";
 import "../../index.css";
 import descriptionImage from "../../assets/images/description-1-app.png";
 import OrdListDescPage from "../../components/OrderedListDescPage/OrdListDescPage";
 import CalendarButtons from "../../components/CalendarButtons/CalendarButtons";
 import OrderedListCalendar from "../../components/OrderedListCalendar/OrderedListCalendar";
+import DescrPageButtons from "../../components/DescrPageButtons/DescrPageButtons";
 
 const DescriptionPage = () => {
-  const buttonUrl = "https://www.somosf5.org/";
-
   return (
     <>
       <div className="w-auto mt-32 mb-16 lg:flex flex-row">
@@ -32,13 +33,15 @@ const DescriptionPage = () => {
             </p>
             <OrdListDescPage />
           </div>
-          <button
-            href={buttonUrl}
-            type="button"
-            className="text-white font-bold download-button-pink download-button-pink:hover rounded-full text-sm px-8 py-3 ml-8 mt-6 text-center mb-2 mx-2 flex flex-row items-center md:text-lg md:download-button-pink:hover md:px-10 md:mx-6 lg:text-base lg:mb-2 lg:px-10"
-          >
-            LIGHTBOX
-          </button>
+          <DescrPageButtons
+            className="hover:lightbox-btn"
+            buttonText="LIGHTBOX"
+            buttonUrl="https://www.somosf5.org/"
+            colors={{
+              bgColor: "#ff556e",
+              textColor: "#ffffff",
+            }}
+          />
         </div>
       </div>
       <div className="calendar-bg">
@@ -50,6 +53,25 @@ const DescriptionPage = () => {
             reminders.
           </p>
           <OrderedListCalendar />
+          <div className="flex flex-row">
+            <DescrPageButtons
+              buttonText="TERMS"
+              buttonUrl="https://www.somosf5.org/"
+              colors={{
+                bgColor: "#ff556e",
+                textColor: "#ffffff",
+              }}
+            />
+            <DescrPageButtons
+              buttonText="PRIVACY"
+              buttonUrl="https://www.somosf5.org/"
+              colors={{
+                bgColor: "#ffffff",
+                textColor: "#333333",
+                borderColor: "#333333",
+              }}
+            />
+          </div>
         </div>
       </div>
     </>
