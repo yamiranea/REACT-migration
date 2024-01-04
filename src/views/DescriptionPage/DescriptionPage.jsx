@@ -4,6 +4,7 @@ import "../../components/DownloadButton/DownloadButton.css";
 import "../../components/DescrPageButtons/DescrPageButtons.css";
 import "../../index.css";
 import descriptionImage from "../../assets/images/description-1-app.png";
+import calendarImage from "../../assets/images/description-2-app.png";
 import OrdListDescPage from "../../components/OrderedListDescPage/OrdListDescPage";
 import CalendarButtons from "../../components/CalendarButtons/CalendarButtons";
 import OrderedListCalendar from "../../components/OrderedListCalendar/OrderedListCalendar";
@@ -53,7 +54,7 @@ const DescriptionPage = () => {
             reminders.
           </p>
           <OrderedListCalendar />
-          <div className="flex flex-row">
+          <div className="flex flex-row mb-16">
             <DescrPageButtons
               buttonText="TERMS"
               buttonUrl="https://www.somosf5.org/"
@@ -72,6 +73,9 @@ const DescriptionPage = () => {
               }}
             />
           </div>
+        </div>
+        <div>
+          <img src={calendarImage} className="w-11/12 mx-auto" />
         </div>
       </div>
     </>
