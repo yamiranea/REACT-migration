@@ -27,22 +27,22 @@ const DescriptionPage = () => {
             </h2>
           </div>
           <div>
-            <p className="text-paragraph w-4/5 mx-auto leading-loose mb-6 md:text-xl md:md:w-11/12">
+            <p className="text-paragraph w-4/5 mx-auto leading-loose mb-6 md:text-xl md:w-11/12">
               Sync is the first mobile app on the market to harness the power of
               social connections to help you stop procrastinating and start
               getting things done. Give it a try and see the changes right away
             </p>
             <OrdListDescPage />
+            <DescrPageButtons
+              className="hover:lightbox-btn"
+              buttonText="LIGHTBOX"
+              buttonUrl="https://www.somosf5.org/"
+              colors={{
+                bgColor: "#ff556e",
+                textColor: "#ffffff",
+              }}
+            />
           </div>
-          <DescrPageButtons
-            className="hover:lightbox-btn"
-            buttonText="LIGHTBOX"
-            buttonUrl="https://www.somosf5.org/"
-            colors={{
-              bgColor: "#ff556e",
-              textColor: "#ffffff",
-            }}
-          />
         </div>
       </div>
       <div className="calendar-bg">
@@ -54,7 +54,7 @@ const DescriptionPage = () => {
             reminders.
           </p>
           <OrderedListCalendar />
-          <div className="flex flex-row mb-16">
+          <div className="flex flex-row justify-center mb-16 space-x-2">
             <DescrPageButtons
               buttonText="TERMS"
               buttonUrl="https://www.somosf5.org/"
