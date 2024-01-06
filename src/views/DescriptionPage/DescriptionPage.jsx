@@ -20,21 +20,20 @@ const DescriptionPage = () => {
             className="md:w-11/12 md:ml-8 lg:w-11/12 hover:scale-105 transition duration-500 cursor-pointer"
           />
         </div>
-        <div className="lg:w-11/12">
+        <div className="flex flex-col w-4/5 mx-auto lg:w-11/12">
           <div>
-            <h2 className="text-3xl font-bold text-left w-4/5 mt-10 mx-auto mb-5 md:text-4xl md:w-11/12">
+            <h2 className="text-3xl font-bold text-left mt-10 mb-5 md:text-4xl md:w-11/12">
               Organize Your Time And Start Getting Results
             </h2>
           </div>
           <div>
-            <p className="text-paragraph w-4/5 mx-auto leading-loose mb-6 md:text-xl md:w-11/12">
+            <p className="text-paragraph leading-loose mb-6 md:text-xl md:w-11/12">
               Sync is the first mobile app on the market to harness the power of
               social connections to help you stop procrastinating and start
               getting things done. Give it a try and see the changes right away
             </p>
             <OrdListDescPage />
             <DescrPageButtons
-              className="hover:lightbox-btn"
               buttonText="LIGHTBOX"
               buttonUrl="https://www.somosf5.org/"
               colors={{
@@ -48,13 +47,13 @@ const DescriptionPage = () => {
       <div className="calendar-bg">
         <CalendarButtons />
         <div>
-          <p className="text-paragraph w-5/6 mx-auto text-left leading-loose">
+          <p className="text-paragraph w-5/6 mx-auto text-left leading-loose md:text-xl md:my-6">
             <strong>Schedule tasks</strong> to keep track of their completion.
             Sync provides multiple scheduling options including alarms and
             reminders.
           </p>
           <OrderedListCalendar />
-          <div className="flex flex-row justify-center mb-16 space-x-2">
+          <div className="flex flex-row justify-center mb-16 space-x-2 md:w-11/12 md:justify-start md:ml-8">
             <DescrPageButtons
               buttonText="TERMS"
               buttonUrl="https://www.somosf5.org/"
@@ -75,7 +74,10 @@ const DescriptionPage = () => {
           </div>
         </div>
         <div>
-          <img src={calendarImage} className="w-11/12 mx-auto" />
+          <img
+            src={calendarImage}
+            className="w-11/12 mx-auto md:w-11/12 md:ml-8 lg:w-11/12 hover:scale-105 transition duration-500 cursor-pointer"
+          />
         </div>
       </div>
     </>

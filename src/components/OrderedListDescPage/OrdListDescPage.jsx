@@ -18,7 +18,7 @@ const OrdListDescPage = () => {
       {ordListDescPageData.map((list, index) => (
         <ol
           key={index}
-          className="square-list text-paragraph w-4/5 mx-auto pl-4 mt-3 md:text-xl md:w-11/12"
+          className="square-list text-paragraph pl-4 mt-3 md:text-xl md:w-11/12"
         >
           <li>{list.text}</li>
         </ol>

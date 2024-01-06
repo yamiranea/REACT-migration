@@ -5,14 +5,14 @@ const DescrPageButtons = ({ buttonText, buttonUrl, colors }) => {
     <a
       href={buttonUrl}
       type="button"
-      className={`font-bold rounded-full text-sm w-5/12 py-3 mt-6 text-center mb-2 flex flex-row md:text-lg md:px-10 md:mx-6 lg:text-base lg:mb-2 lg:px-10`}
+      className={`font-bold rounded-full text-sm w-5/12 py-3 mt-6 text-center mb-2 flex flex-row md:text-base md:px-auto md:w-3/12 md:py-3 lg:text-base lg:mb-2 lg:px-10`}
       style={{
         backgroundColor: colors.bgColor,
         color: colors.textColor,
         border: `2px solid ${colors.borderColor}`,
       }}
     >
-      <p className="mx-auto">{buttonText}</p>
+      <p className="mx-auto text-center w-auto">{buttonText}</p>
     </a>
   );
 };
