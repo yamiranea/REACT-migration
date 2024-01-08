@@ -26,5 +26,5 @@ the font and iconography,</li>
 > <h4>🛠 Clone to your repository:</h4>
 > <ol>
 > <li>Clone this repository to your local environment.</li>
-> <li>Open the index.html document in the web browser.</li>
+> <li>You will need to install the mentioned dependencies used to see all the content.</li>
 > </ol>
