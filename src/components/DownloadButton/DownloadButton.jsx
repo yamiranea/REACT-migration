@@ -17,7 +17,7 @@ const DownloadButton = () => {
         <button
           key={index}
           type="button"
-          className="text-white font-bold download-button-pink download-button-pink:hover rounded-full text-sm px-6 py-3 text-center mb-2 mx-2 flex flex-row items-center md:text-lg md:download-button-pink:hover lg:text-base lg:mb-2 lg:px-10"
+          className="text-white font-bold download-button-pink download-button-pink:hover rounded-full text-sm px-6 py-3 text-center mb-2 mx-2 flex flex-row items-center md:text-base md:h-12 md:py-4  md:download-button-pink:hover lg:text-base lg:mb-2 lg:px-10"
         >
           <i className={button.iconClass}></i>
           DOWNLOAD

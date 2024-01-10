@@ -47,7 +47,7 @@ const DescriptionPage = () => {
       <div className="calendar-bg">
         <CalendarButtons />
         <div>
-          <p className="text-paragraph w-5/6 mx-auto text-left leading-loose md:text-xl md:my-6">
+          <p className="text-paragraph w-5/6 mx-auto text-left leading-loose md:text-xl md:my-6 md:ml-10">
             <strong>Schedule tasks</strong> to keep track of their completion.
             Sync provides multiple scheduling options including alarms and
             reminders.
