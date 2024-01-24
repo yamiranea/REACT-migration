@@ -61,3 +61,16 @@ h1, h2 {
     margin-top: -161px;
     }
 }
+
+@media (min-width: 1400px) {
+    .white-circle-right {
+    margin-left: 1224px;
+    margin-top: -104px;
+    }
+
+    .navbar-container {
+    display: flex;
+    width: auto;
+    margin: 0px 5%;
+    }
+}

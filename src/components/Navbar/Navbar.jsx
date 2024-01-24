@@ -41,10 +41,10 @@ const Navbar = () => {
           : "flex dark:bg-gray-900"
       } transition-all duration-300`}
     >
-      <div className="max-w-screen-xl flex flex-nowrap items-center justify-between mx-auto p-4 md:flex md:items-start lg:pl-0">
+      <div className="navbar-container max-w-screen-xl flex flex-nowrap items-center justify-between mx-auto p-4 md:flex md:items-start lg:pl-0">
         <a
           href="#"
-          className="flex items-center space-x-72 rtl:space-x-reverse md:space-x-64"
+          className="flex items-center space-x-72 rtl:space-x-reverse md:space-x-64 xl:space-x-96"
         >
           <img src={syncLogo} class="h-8" alt="Sync Logo" />
           <div className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></div>
@@ -75,7 +75,7 @@ const Navbar = () => {
         <div
           className={`${
             isMobileMenuOpen ? "block" : "hidden"
-          } w-full md:flex md:w-auto`}
+          } w-full md:flex md:w-auto xl:ml-32`}
           id="navbar-dropdown"
         >
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-color md:space-x- rtl:space-x-reverse sm:flex-row sm:space-x-2.5 md:space-x-2.5 md:flex-row md:mt-0 md:border-0 md:bg-white lg:gap-5">
