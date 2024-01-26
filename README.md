@@ -14,12 +14,11 @@ the font and iconography,</li>
 <li>Use of animations.</li>
 </ul>
 
-<h4>🗒 Technologies stack:</h4>
+<h4> 🗒 Technologies stack:</h4>
 <ul>
-<li><strong>React</strong></li>
+<li><strong>REACT</strong></li>
 <li><strong>Vite</strong></li>
-<li><strong>Tailwind CSS</strong></li>
-<li><strong>Git</strong></li>
+<li><strong>Tailwind</strong></li>
 </ul>
 
 > [!TIP]
