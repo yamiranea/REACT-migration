@@ -1,4 +1,4 @@
-# REACT-MIGRATION  
+# REACT-MIGRATION
 
 #FemCoders bootcamp individual practice using React + Vite.
 
@@ -9,7 +9,7 @@
 <li>Mobile first and responsive at tablet breakpoint,</li>
 <li>The use of libraries that help streamline the development process,</li>
 <li>Must use git/gitflow,</li>
-<li>TThe page must be an exact replica of the mockups submitted complying with: the color palette,
+<li>The page must be an exact replica of the mockups submitted complying with: the color palette,
 the font and iconography,</li>
 <li>Use of animations.</li>
 </ul>
@@ -21,7 +21,15 @@ the font and iconography,</li>
 <li><strong>Tailwind</strong></li>
 </ul>
 
+<h4> 📸 Final result screenshots:</h4>
+<image
+  src="src/assets/images/Github_screenshots1.png"
+  alt="Descripción de la imagen"
+  caption="Leyenda de la imagen">
+<br>
+
 > [!TIP]
+>
 > <h4>🛠 Clone to your repository:</h4>
 > <ol>
 > <li>Clone this repository to your local environment.</li>
