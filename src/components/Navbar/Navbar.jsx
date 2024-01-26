@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
 
 import "../Navbar/NavBar.css";
 import "../DownloadButton/DownloadButton.css";
@@ -39,13 +38,16 @@ const Navbar = () => {
       className={`${
         isNavbarSticky
           ? "fixed top-0 w-full z-50 bg-color shadow-md border-b border-gray-200"
-          : "flex dark:bg-gray-900 dark:border-gray-700"
+          : "flex dark:bg-gray-900"
       } transition-all duration-300`}
     >
-      <div className="max-w-screen-xl flex flex-nowrap items-center justify-between mx-auto p-4 lg:pl-0">
-        <a href="#" class="flex items-center space-x-72 rtl:space-x-reverse">
+      <div className="navbar-container max-w-screen-xl flex flex-nowrap items-center justify-between mx-auto p-4 md:flex md:items-start lg:pl-0">
+        <a
+          href="#"
+          className="flex items-center space-x-72 rtl:space-x-reverse md:space-x-64 xl:space-x-96"
+        >
           <img src={syncLogo} class="h-8" alt="Sync Logo" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+          <div className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></div>
         </a>
         <button
           onClick={toggleMobileMenu}
@@ -73,7 +75,7 @@ const Navbar = () => {
         <div
           className={`${
             isMobileMenuOpen ? "block" : "hidden"
-          } w-full md:flex md:w-auto`}
+          } w-full md:flex md:w-auto xl:ml-32`}
           id="navbar-dropdown"
         >
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-color md:space-x- rtl:space-x-reverse sm:flex-row sm:space-x-2.5 md:space-x-2.5 md:flex-row md:mt-0 md:border-0 md:bg-white lg:gap-5">
@@ -110,7 +112,7 @@ const Navbar = () => {
               >
                 EXTRA{" "}
                 <svg
-                  className="w-2.5 h-2.5 ms-2.5"
+                  className="w-2.5 h-2.5 ml-2.5"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -129,10 +131,10 @@ const Navbar = () => {
                 id="dropdownNavbar"
                 className={`${
                   isDropdownOpen ? "block" : "hidden"
-                } z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}
+                } z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}
               >
                 <ul
-                  className="py-2 text-sm text-gray-700 dark:text-gray-400"
+                  className="py-2 text-sm text-gray-700"
                   aria-labelledby="dropdownLargeButton"
                 >
                   <li>

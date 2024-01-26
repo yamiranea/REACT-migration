@@ -24,11 +24,11 @@ const CalendarButtons = () => {
   ];
 
   return (
-    <div className="md:flex flex-row flex-wrap justify-center">
+    <div className="md:flex flex-row flex-wrap space-x-3 mx-8">
       {calendarBtnData.map((calendar, index) => (
         <div key={index} className="flex flex-col items-center mb-3">
           <div
-            className={`calendar-btn w-9/12 h-12 flex flex-row items-center justify-center space-x-2 cursor-pointer hover:text-white ${calendar.bgColor} ${calendar.textColor}`}
+            className={`calendar-btn w-9/12 h-12 flex flex-row items-center justify-center space-x-2 cursor-pointer hover:text-white md:w-40 ${calendar.bgColor} ${calendar.textColor}`}
           >
             <i className={`${calendar.iconClass} text-xl hover:text-white`} />{" "}
             <p className={`text-md font-bold`}>{calendar.text}</p>

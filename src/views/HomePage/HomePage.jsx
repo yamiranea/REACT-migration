@@ -41,7 +41,7 @@ const HomePage = () => {
       <div>
         <img
           src={phoneImage}
-          className="w-auto mx-2 mt-10 mb-20 phone-img hover:scale-105 transition duration-500 cursor-pointer"
+          className="w-auto mx-2 mt-10 mb-20 phone-img hover:scale-105 transition duration-500 cursor-pointer xl:w-9/12 xl:mx-auto"
         />
       </div>
       <div>
